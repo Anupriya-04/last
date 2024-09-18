@@ -1,0 +1,108 @@
+/* Main container styling */
+.new-people-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 50px 20px;
+    background-color: #f0f8ff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Header section styling */
+  .new-people-header {
+    margin-bottom: 50px;
+  }
+  
+  .new-people-header h1 {
+    font-size: 3rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .new-people-header p {
+    font-size: 1.5rem;
+    color: #666;
+  }
+  
+  /* Grid layout */
+  .new-people-grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  
+  /* Person card styling */
+  .new-person-card {
+    background-color: #fff;
+    border-left: 5px solid #007bff;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 350px;
+    min-width: 250px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect for cards */
+  .new-person-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    border-left: 5px solid #0056b3;
+  }
+  
+  /* Name styling */
+  .new-person-name {
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  /* Title styling */
+  .new-person-title {
+    font-size: 1.2rem;
+    color: #007bff;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  /* Description styling */
+  .new-person-description {
+    font-size: 1rem;
+    color: #555;
+    text-align: justify;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .new-people-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  
+    .new-person-card {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  }
+  @media (max-width: 480px) {
+    .new-people-header {
+      text-align: center; /* Center-align text for smaller screens */
+      padding: 10px; /* Add some padding */
+    }
+  
+    .new-people-header h1 {
+      font-size: 1.5rem; /* Adjust font size for better readability */
+    }
+  
+    .new-people-header p {
+      font-size: 1rem; /* Adjust font size */
+    }
+  }

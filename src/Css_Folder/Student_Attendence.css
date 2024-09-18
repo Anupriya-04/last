@@ -1,0 +1,70 @@
+.coming-soon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.coming-soon-title {
+  font-size: 7rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+.coming-soon-message {
+  font-size: 6rem;
+  color: #dad614cc;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Keyframes for pulse animation */
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1); /* Slight scaling for pulse effect */
+  }
+  100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+  .coming-soon-title {
+    font-size: 4rem; /* Reduce title size for mobile */
+  }
+
+  .coming-soon-message {
+    font-size: 3rem; /* Reduce message size for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .coming-soon-title {
+    font-size: 3rem; /* Further reduce title size for smaller screens */
+  }
+
+  .coming-soon-message {
+    font-size: 2.5rem; /* Further reduce message size for smaller screens */
+  }
+}

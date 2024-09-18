@@ -1,0 +1,125 @@
+/* Prevent horizontal scrolling globally */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Women Section */
+.health-section {
+  position: relative;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+ 
+  min-height: 350px; /* Ensure enough height */
+}
+.small-image {
+  width: 100%; /* Adjust the percentage to control the size */
+  height: auto;
+}
+
+focus-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.focus-card {
+  flex-basis: 30%; /* Ensures three cards per row */
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.focus-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+
+.health-image {
+  width: 100%;
+  /* Maintain aspect ratio */
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.health-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 20px;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.health-title {
+  font-size: 5em; /* Reduce font size for better responsiveness */
+  color: white;
+  text-shadow: 0 0 10px rgba(17, 17, 17, 0.7);
+  margin-bottom: 10px;
+}
+
+.health-subtitle {
+  font-size: 2rem; /* Slightly smaller subtitle */
+  color: white;
+  text-shadow: 0 0 10px rgba(7, 7, 7, 0.7);
+  margin-top: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .health-image {
+    height: auto; /* Ensure image resizes automatically */
+  }
+
+  .health-text {
+    width: 90%;
+    padding: 0 10px;
+    top: 40%; /* Adjust text position */
+  }
+
+  .health-title {
+    font-size: 2.5rem;
+  }
+
+  .health-subtitle {
+    font-size: 1.3rem;
+  }
+  .health-section{
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 440px) {
+  .health-section {
+    min-height: auto; /* Ensure minimum height on small devices */
+  }
+
+  .health-image {
+    height: 200px; /* Reduce height for smaller devices */
+  }
+
+  .health-text {
+    width: 85%;
+    /* Adjust text placement */
+    padding: 0 5px;
+  }
+
+  .health-title {
+    font-size: 2rem;
+  }
+
+  .health-subtitle {
+    font-size: 1.2rem;
+  }
+}

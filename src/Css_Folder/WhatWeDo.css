@@ -1,0 +1,142 @@
+.what-we-do-container {
+  padding: 20px;
+  background-color: #f5f5f5; 
+  margin-top: 10%;/* Light background to make cards stand out */
+}
+
+.what-we-do-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.service-grid-container {
+  display: flex;
+  justify-content: center; /* Center align the grid container */
+  padding: 0 10px; /* Side margins to prevent the grid from touching the edges */
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px; /* Max width for the grid to keep it aligned */
+  width: 100%;
+  margin: 0 auto; /* Center the grid horizontally */
+}
+
+.service-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.service-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.service-card h3 {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  display: none; /* Initially hide the content */
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.service-card.expanded p {
+  display: block; /* Show content when card is expanded */
+}
+
+.expanded-content {
+  margin-top: 10px;
+}
+
+.expanded-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* "Read More" Button Style */
+.read-more-btn {
+  background-color: #007BFF; /* Primary blue color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start; /* Position the button at the start of the card */
+}
+
+.read-more-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Card hover effect */
+.service-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .service-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+
+  .what-we-do-container h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .what-we-do-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .read-more-btn {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-grid {
+    grid-template-columns: 1fr; /* Show one card per row */
+    gap: 20px;
+  }
+
+  .what-we-do-container h2 {
+    font-size: 1.4rem;
+    margin-top: 40px;
+  }
+
+  .read-more-btn {
+    padding: 6px 12px;
+  }
+
+  .service-card img {
+    height: 190px; /* Adjust image height for smaller screens */
+  }
+}

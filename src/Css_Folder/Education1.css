@@ -1,0 +1,65 @@
+.ngo-section {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  
+  .ngo-item {
+    width: 30%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+  
+  .description {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Example styles for each section */
+  .education-title {
+    color: #f4c542; /* Gold color */
+  }
+  
+  .healthcare-title {
+    color: #b794f6; /* Lavender color */
+  }
+  
+  .women-empowerment-title {
+    color: #72c3b1; /* Teal color */
+  }
+  
+  .live-title {
+    color: #e2a07f; /* Peach color */
+  }
+  
+  .empowering-grassroots-title {
+    color: #63c76a; /* Green color */
+  }
+  
+  .disaster-response-title {
+    color: #e84b4b; /* Red color */
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .ngo-item {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+  

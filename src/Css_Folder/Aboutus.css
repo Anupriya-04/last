@@ -1,0 +1,120 @@
+/* Animation */
+@keyframes fadeInSlideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* General Styling */
+  .about-img {
+    height: auto; /* Maintain aspect ratio */
+    max-height: 450px; /* Default max height, similar to Home.css */
+    width: 100%; /* Ensure the image takes full width */
+    object-fit: cover; /* Cover the container */
+    margin: 0 auto; /* Center the image */
+  }
+  
+  /* Image sizes for the circular images */
+  .key-areas-images img {
+    width: 200px; /* Default circular image size */
+    height: 200px;
+    border-radius: 50%; /* Ensure images remain circular */
+    object-fit: cover; /* Maintain image aspect ratio */
+  }
+  
+  .key-areas-arrow {
+    width: 30px; /* Default arrow size */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Media Query for Tablets (768px) */
+  @media (max-width: 768px) {
+    .about-img {
+      max-height: 350px; /* Adjust height for tablets */
+    }
+  
+    .key-areas-images img {
+      width: 150px; /* Circular images for tablets */
+      height: 150px;
+    }
+  
+    .key-areas-arrow {
+      width: 20px; /* Smaller arrow size for tablets */
+    }
+  
+    h1 {
+      font-size: 2rem; /* Adjust heading font size */
+      text-align: center; /* Ensure headings are centered */
+    }
+  
+    p {
+      font-size: 1.1rem; /* Slightly smaller paragraph text */
+      text-align: justify; /* Improve readability */
+    }
+
+    .about-h{
+      font-size: clamp(1rem, 5vw, 1.5rem);
+      
+    }
+  }
+  
+  /* Media Query for Mobile Devices (576px) */
+  @media (max-width: 576px) {
+    .about-img {
+      max-height: 250px; /* Adjust height for mobile devices */
+    }
+  
+    .key-areas-images img {
+      width: 100px; /* Smaller circular images for mobile */
+      height: 100px;
+    }
+  
+    .key-areas-arrow {
+      width: 15px; /* Smaller arrow size for mobile */
+    }
+  
+    h1 {
+      font-size: 1.8rem; /* Adjust heading font size */
+      text-align: center;
+    }
+  
+    p {
+      font-size: 1rem; /* Smaller paragraph text */
+      text-align: justify;
+    }
+  }
+  
+  /* Media Query for Extra Small Devices (480px and below) */
+  @media (max-width: 480px) {
+    .about-img {
+      max-height: auto; /* Further adjustment for very small screens */
+    }
+  
+    .key-areas-images img {
+      width: 40px; /* Even smaller size for extra small screens */
+      height: 40px;
+    }
+  
+    .key-areas-arrow {
+      width: 10px; /* Even smaller arrow size */
+    }
+  
+    h1 {
+      font-size: 1.5rem; /* Reduce heading size for extra small screens */
+      text-align: center;
+    }
+  
+    p {
+      font-size: 0.9rem; /* Smaller paragraph text */
+      text-align: justify;
+    }
+    .aboutimg{
+      margin-top: 80px;
+    }
+  }
+  

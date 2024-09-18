@@ -1,0 +1,52 @@
+.livelihood-module-container {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .module-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .module-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .module-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .circle {
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .module-icon {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .module-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .module-text p {
+    font-size: 1rem;
+    color: #666;
+  }
+  

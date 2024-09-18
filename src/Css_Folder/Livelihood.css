@@ -1,0 +1,220 @@
+/* Livelihood Section */
+.livelihood-section {
+    position: relative;
+    text-align: center;
+    background-color: #9db87e;
+  }
+  
+  .livelihood-image {
+    height: 550px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 8;
+  }
+  
+  .livelihood-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .livelihood-title {
+    font-size: 5rem;
+    color: white;
+  }
+  
+  .livelihood-subtitle {
+    font-size: 2rem;
+    margin-top: 5px;
+  }
+  
+  /* WHY SKILLING Section */
+  .why-skilling {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 5px;
+  }
+  
+  .why-skilling h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-top: 70px;
+    color: #333;
+  }
+  
+  /* Paragraph Section */
+  .paragraph-section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 90%;
+    margin: 20px auto;
+    color: black;
+  }
+  
+  .paragraph-section p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: black;
+    text-align: justify;
+  }
+  
+  /* WHAT WE HAVE DONE */
+  .done-title {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Bodoni Moda', serif;
+    color: green;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Content Section */
+  .content-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: #e4f4f3;
+    flex-wrap: wrap;
+  }
+  
+  .image-container {
+    flex: 1;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .carousel-image {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .training-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Bodoni Moda', serif;
+    color: black;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .content {
+    flex: 1;
+    padding-left: 20px;
+    text-align: justify;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Bodoni Moda', serif;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .livelihood-section {
+     
+      margin-top: 80px;
+    }
+  
+    .livelihood-image {
+      height: 350px;
+    }
+  
+    .livelihood-text {
+      width: 90%;
+    }
+  
+    .livelihood-title {
+      font-size: 2.5rem;
+    }
+  
+    .livelihood-subtitle {
+      font-size: 1.5rem;
+    }
+  
+    .why-skilling h1 {
+      font-size: 2rem;
+      margin-top: 40px;
+    }
+  
+    .paragraph-section {
+      padding: 20px;
+    }
+  
+    .paragraph-section p {
+      font-size: 1rem;
+    }
+  
+    .done-title {
+      font-size: 2.5rem;
+    }
+  
+    .content-section {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .image-container {
+      width: 100%;
+    }
+  
+    .carousel-image {
+      height: 300px;
+    }
+  
+    .training-title {
+      font-size: 2rem;
+    }
+  
+    .content {
+      padding-left: 0;
+      padding-top: 20px;
+      text-align: center;
+    }
+  
+    .content p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .livelihood-title {
+      font-size: 2rem;
+    }
+    .livelihood-image {
+      height: 190px;
+    }
+  
+    .livelihood-subtitle {
+      font-size: 1.2rem;
+    }
+  
+    .why-skilling h1 {
+      font-size: 1.5rem;
+      margin-top: 20px;
+    }
+  
+    .paragraph-section p {
+      font-size: 0.9rem;
+    }
+  
+    .done-title {
+      font-size: 2rem;
+    }
+  
+    .content p {
+      font-size: 0.9rem;
+    }
+  }

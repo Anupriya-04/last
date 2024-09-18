@@ -1,0 +1,112 @@
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.contact-info {
+  width: 40%;
+  padding: 20px;
+}
+
+.company-name-container h3 {
+  margin: 0;
+  font-size: 1.5em; /* Adjust font size as needed */
+}
+
+.company-logo {
+  width: 50px; /* Adjust the size of the logo */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 15px; /* Space between logo and name */
+}
+.logo-container {
+  display: flex;
+  align-items: center; /* Vertically center the logo and name */
+}
+
+.contact-info h3 {
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.map {
+  width: 110%;
+  height: 500px;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.contact-form {
+  width: 55%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.send-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .map {
+    height: 150px;
+  }
+}
+

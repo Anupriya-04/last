@@ -1,0 +1,99 @@
+/* Navbar Container */
+.navbar {
+  background-color: #CCCCFF;
+  background-image: linear-gradient(315deg, #ADD8E6 0%, #CCCCFF 74%);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: fixed; /* Stick the navbar to the top */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensure it spans the full width */
+  z-index: 1000; /* Ensure it stays above other content */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+}
+
+/* Add margin to the body or main content to avoid it being hidden under the fixed navbar */
+body {
+  margin: 10px; /* Remove default margin */
+}
+
+.main-content {
+  margin-top: 60px; /* Adjust based on your navbar height */
+}
+
+/* Other existing styles */
+.navbar-header {
+  height: 50px;
+  width: auto;
+}
+
+.navbar-brand img {
+  border-radius: 50%;
+}
+
+.navbar-nav > li > a {
+  color: #CCCCFF !important;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  font-weight: 250;
+  padding: 15px;
+}
+
+.dropdown-toggle {
+  color: white !important;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  font-weight: 250;
+  padding: 15px;
+}
+
+.dropdown-menu {
+  background-color: #CCCCFF;
+  background-image: linear-gradient(315deg, #CCCCFF 0%, #ADD8E6 90%);
+}
+
+.nav-dropdown .dropdown-menu {
+  background-color: #CCCCFF;
+  background-image: linear-gradient(315deg, #CCCCFF 0%, #ADD8E6 90%);
+}
+
+.dropdown-item {
+  color: white;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 50px;
+}
+
+.dropdown-item:hover {
+  background-color: red; /* Red background on hover */
+  color: white; /* Ensure text color remains readable */
+}
+
+.dropdown-item.active {
+  background-color: darkred; /* Darker red for active state */
+  color: white;
+}
+
+
+@media (max-width: 480px) {
+  .navbar {
+    padding-top: 10px; /* Reduce padding on mobile */
+    padding-bottom: 10px; /* Reduce padding on mobile */
+  }
+  
+  .navbar-brand img {
+    height: 40px; /* Reduce logo size on mobile */
+  }
+  
+  .navbar-nav > li > a {
+    font-size: 16px; /* Reduce font size on mobile */
+    padding: 10px; /* Reduce padding on mobile */
+  }
+  
+  .dropdown-item {
+    font-size: 16px; /* Reduce font size for dropdown items on mobile */
+    padding: 5px 30px; /* Adjust padding for dropdown items on mobile */
+  }
+}
