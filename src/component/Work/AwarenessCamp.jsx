@@ -3,16 +3,16 @@ import Card from 'react-bootstrap/Card';
 import { FaChartLine, FaHandsHelping, FaHeartbeat, FaLeaf } from 'react-icons/fa';
 import '../../Css_Folder/AwarenessCamp.css';
 
-import awe2 from '../../image/awe2.jpg';
-import p1 from '../../image/p1.jpg';
+import awe20 from '../../image/awe20.jpg';
 import p13 from '../../image/p13.jpg';
 import p14 from '../../image/p14.jpg';
 import p15 from '../../image/p15.jpg';
 import p16 from '../../image/p16.jpg';
 import p17 from '../../image/p17.jpg';
-import p2 from '../../image/p2.jpg';
-import p3 from '../../image/p3.jpg';
-import p4 from '../../image/p4.jpg';
+import p94 from '../../image/p94.jpg';
+import p95 from '../../image/p95.jpg';
+import p96 from '../../image/p96.jpg';
+import p97 from '../../image/p97.jpg';
 const Awareness = () => {
   const [inView, setInView] = useState(false);
 
@@ -40,7 +40,7 @@ const Awareness = () => {
       <div className="event-list-page">
       {/* Livelihood Section */}
       <div className="women-section">
-        <img src={awe2} alt="Livelihood Background" className="Women-image" />
+        <img src={awe20} alt="Livelihood Background" className="hero-image-large" />
         <div className="Women-text">
           <div className="Women-title">AWARENESS CAMP</div>
           <div className="Women-subtitle">Empowering communities for a healthier tomorrow</div>
@@ -153,7 +153,7 @@ const Awareness = () => {
         <h2 className="section-title">Our Journey & Works</h2>
         <div className="works-grid">
           <Card className="work-card">
-            <Card.Img variant="top" src={p1} className="card-img" />
+            <Card.Img variant="top" src={p94} className="card-img" />
             <Card.Body>
               <Card.Title className="card-title">Health Initiative</Card.Title>
               <Card.Text className="card-text">
@@ -163,7 +163,7 @@ const Awareness = () => {
           </Card>
 
           <Card className="work-card work-card-alternate">
-            <Card.Img variant="top" src={p2} className="card-img" />
+            <Card.Img variant="top" src={p95} className="card-img" />
             <Card.Body>
               <Card.Title className="card-title">Eco-Friendly Practices</Card.Title>
               <Card.Text className="card-text">
@@ -173,7 +173,7 @@ const Awareness = () => {
           </Card>
 
           <Card className="work-card">
-            <Card.Img variant="top" src={p3} className="card-img" />
+            <Card.Img variant="top" src={p96} className="card-img" />
             <Card.Body>
               <Card.Title className="card-title">Water Management</Card.Title>
               <Card.Text className="card-text">
@@ -183,7 +183,7 @@ const Awareness = () => {
           </Card>
 
           <Card className="work-card work-card-alternate">
-            <Card.Img variant="top" src={p4} className="card-img" />
+            <Card.Img variant="top" src={p97} className="card-img" />
             <Card.Body>
               <Card.Title className="card-title">Waste Reduction</Card.Title>
               <Card.Text className="card-text">

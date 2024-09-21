@@ -3,7 +3,7 @@ import '../../Css_Folder/PeopleBehindSmile.css'; // Import custom CSS for stylin
 
 const people = [
   {
-    name: 'MR OMVEER SINGH MEENA',
+    name: 'MR OMVEER SINGH ',
     title: 'Founder & CEO',
     description: `Mr Omveer Singh Meena is a graduate from Barkatullah University. After an illustrious career in media, spending 10 years handling various positions, he started his own computer center in Mandideep, Raisen (M.P), and has been working with private and government skill development schemes since then. 
 In 2012, Mr. Meena joined hands with some of his friends to set up SRPM Aspire Education and Welfare Society and is currently working as the President of the society.`

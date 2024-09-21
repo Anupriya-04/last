@@ -44,8 +44,9 @@ focus-cards-container {
 
 .health-image {
   width: 100%;
+ 
   /* Maintain aspect ratio */
-  max-height: 600px;
+  max-height: 700px;
   object-fit: cover;
 }
 

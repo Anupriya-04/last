@@ -2,14 +2,15 @@ import React, { useEffect, useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import { FaLeaf, FaRecycle, FaTree, FaWater } from 'react-icons/fa';
 import '../../Css_Folder/Environment.css';
-import d3 from '../../image/d3.png';
 import p24 from '../../image/p24.jpg';
 import p40 from '../../image/p40.jpg';
 import p60 from '../../image/p60.jpg';
-import p61 from '../../image/p61.jpg';
-import p62 from '../../image/p62.jpg';
 import p63 from '../../image/p63.jpg';
-import p64 from '../../image/p64.jpg';
+import p92 from '../../image/p92.jpg';
+import p93 from '../../image/p93.jpg';
+import pp89 from '../../image/pp89.jpeg';
+import pp90 from '../../image/pp90.jpeg';
+import pp91 from '../../image/pp91.jpeg';
 const Environment = () => {
   const [inView, setInView] = useState(false);
 
@@ -93,7 +94,7 @@ const Environment = () => {
             </Card>
 
             <Card className="program-card12 program-card-alternate12">
-              <Card.Img variant="top" src={p61} className="card-img12" />
+              <Card.Img variant="top" src={p92} className="card-img12" />
               <Card.Body>
                 <Card.Title className="card-title12">Recycling Workshops</Card.Title>
                 <Card.Text className="card-text12">
@@ -104,7 +105,7 @@ const Environment = () => {
             </Card>
 
             <Card className="program-card12">
-              <Card.Img variant="top" src={p62} className="card-img12" />
+              <Card.Img variant="top" src={p93} className="card-img12" />
               <Card.Body>
                 <Card.Title className="card-title12">Water Conservation Projects</Card.Title>
                 <Card.Text className="card-text12">
@@ -134,7 +135,7 @@ const Environment = () => {
           <h2 className="section-title12">Our Achievements & Projects</h2>
           <div className="works-grid12">
             <Card className="work-card12">
-              <Card.Img variant="top" src={p64} className="card-img12" />
+              <Card.Img variant="top" src={pp91} className="card-img12" />
               <Card.Body>
                 <Card.Title className="card-title12">Urban Green Spaces</Card.Title>
                 <Card.Text className="card-text12">
@@ -154,7 +155,7 @@ const Environment = () => {
             </Card>
 
             <Card className="work-card12">
-              <Card.Img variant="top" src={d3} className="card-img12" />
+              <Card.Img variant="top" src={pp89} className="card-img12" />
               <Card.Body>
                 <Card.Title className="card-title12">Water Management Solutions</Card.Title>
                 <Card.Text className="card-text12">
@@ -164,7 +165,7 @@ const Environment = () => {
             </Card>
 
             <Card className="work-card12 work-card-alternate12">
-              <Card.Img variant="top" src={p40} className="card-img12" />
+              <Card.Img variant="top" src={pp90} className="card-img12" />
               <Card.Body>
                 <Card.Title className="card-title12">Sustainable Farming Projects</Card.Title>
                 <Card.Text className="card-text12">

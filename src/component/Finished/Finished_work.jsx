@@ -163,7 +163,7 @@ const WhatWeDo = () => {
             onClick={() => setExpandedCard(expandedCard === 6 ? null : 6)}
           >
             <img src={p26} alt="COMPETITIVE EXAMS TRAINING BY OBC" />
-            <h3>COMPETITIVE EXAMS TRAINING BY OBC</h3>
+            <h3>COMPETITIVE EXAMS TRAINING BY SRPM Society</h3>
             {expandedCard === 6 && (
               <>
                 <p>The Competitive Exams Training by OBC offers comprehensive
@@ -221,7 +221,7 @@ const WhatWeDo = () => {
             onClick={() => setExpandedCard(expandedCard === 8 ? null : 8)}
           >
             <img src={pp80} alt="COMPUTER OPERATING TRAINING BY WINCARE TECHNOSFT GROUP" />
-            <h3>COMPUTER OPERATING TRAINING BY WINCARE TECHNOSFT GROUP</h3>
+            <h3>COMPUTER OPERATING TRAINING BY WINCARE TECHNOSFT GROUP under CSR scheme</h3>
             {expandedCard === 8 && (
               <>
                 <p>The Computer Operating Training by WINCARE TECHNOSFT Group is designed to equip individuals with essential computer skills required in today’s digital world. This training covers basic to intermediate computer operations, including using operating systems, managing files, word processing, spreadsheets, and internet navigation. Participants will also learn important software applications
@@ -243,7 +243,7 @@ const WhatWeDo = () => {
             onClick={() => setExpandedCard(expandedCard === 9 ? null : 9)}
           >
             <img src={pp81} alt="SEWING MACHINE TAILORING TRAINING" />
-            <h3>SEWING MACHINE TAILORING TRAINING</h3>
+            <h3>SEWING MACHINE TAILORING TRAINING CSR Scheme</h3>
             {expandedCard === 9 && (
               <>
                 <p>The Sewing Machine Tailoring Training provides hands-on instruction aimed at empowering 

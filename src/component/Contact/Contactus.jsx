@@ -35,14 +35,14 @@ const Contactus = () => {
       <div className="logo-container">
         <img src="SRPMLOGO2.png" alt="Company Logo" className="company-logo" />
         <div className="company-name-container">
-          <h3>Company Name</h3>
+          <h3>SRPM</h3>
         </div>
       </div>
-      <p>1234 Your Street, City, Country</p>
-      <p>Email: <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=sahunidhi706@gmail.com" target="_blank" rel="noopener noreferrer"> info@yourcompany.com </a></p>
-      <p>Phone: +123-456-7890</p>
+      <p>C-23, Vidhya Nagar , Bhopal(M.P.)</p>
+      <p>Email: <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=sahunidhi706@gmail.com" target="_blank" rel="noopener noreferrer"> srpmprojects@gmail.com </a></p>
+      <p>Phone: +91-9407471185</p>
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.2450650757114!2d-122.08424968469256!3d37.421999779821535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5bbcd5cf4a1%3A0x785de2e89e236f89!2sGoogleplex!5e0!3m2!1sen!2sus!4v1630518498762!5m2!1sen!2sus"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7334.708674021484!2d77.4389151025714!3d23.193753962012146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c43c7731181af%3A0x36fd9bf396fb6ef!2sVidya%20Nagar%2C%20Bhopal%2C%20Madhya%20Pradesh%20462026!5e0!3m2!1sen!2sin!4v1726924318558!5m2!1sen!2sin"
         className="map"
         allowFullScreen=""
         loading="lazy"
