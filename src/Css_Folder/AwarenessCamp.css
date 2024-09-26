@@ -277,6 +277,10 @@ body {
     font-size: 0.875rem;
   }
 
+  .hero-image-large {
+   height: 30vh;
+  }
+
   .hero-btn {
     padding: 10px 20px;
     font-size: 0.875rem;
