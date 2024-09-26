@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaCalendarAlt } from 'react-icons/fa';
 //import "slick-carousel/slick/slick.css";
 import Carousel from 'react-bootstrap/Carousel';
 import { FaEnvira } from "react-icons/fa6";
@@ -49,16 +48,7 @@ const Home = () => {
           }}>
             Bringing Smiles <br /> Through Education & Empowerment
           </div>
-          <div style={{
-            fontSize: '1rem', 
-            color: '#fff', 
-            backgroundColor: 'rgba(0, 0, 0, 0.5)', 
-            padding: '10px', 
-            borderRadius: '5px',
-            marginTop: '10px',
-          }}>
-            Know More
-          </div>
+          
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -76,16 +66,7 @@ const Home = () => {
           }}>
             Empowering the Next Generation
           </div>
-          <div style={{
-            fontSize: '1rem', 
-            color: '#fff', 
-            backgroundColor: 'rgba(0, 0, 0, 0.5)', 
-            padding: '10px', 
-            borderRadius: '5px',
-            marginTop: '10px',
-          }}>
-            Know More
-          </div>
+          
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -103,16 +84,7 @@ const Home = () => {
           }}>
             Building a Brighter Future
           </div>
-          <div  className='abouttext' style={{
-            fontSize: '1rem', 
-            color: '#fff', 
-            backgroundColor: 'rgba(0, 0, 0, 0.5)', 
-            padding: '10px', 
-            borderRadius: '5px',
-            marginTop: '10px',
-          }}>
-            Know More
-          </div>
+         
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -130,16 +102,7 @@ const Home = () => {
           }}>
             Inspiring Through Action
           </div>
-          <div className='abouttext' style={{
-            fontSize: '1rem', 
-            color: '#fff', 
-            backgroundColor: 'rgba(0, 0, 0, 0.5)', 
-            padding: '10px', 
-            borderRadius: '5px',
-            marginTop: '10px',
-          }}>
-            Know More
-          </div>
+       
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
@@ -185,7 +148,7 @@ const Home = () => {
               <h3> At SRPM Aspire Education, we are deeply committed to reshaping this narrative and ensuring that 
               the contributions of healthcare workers are properly acknowledged.</h3>
               <p>Caring for Health, Empowering Lives...</p>
-              <Link to="/Livelihood">Read more</Link>
+              <Link to="/healthcare">Read more</Link>
             </div>
           </div>
 
@@ -229,7 +192,7 @@ const Home = () => {
 
         {/* Latest Events Section */}
        <div>
-       <h1 >Latest Events</h1>
+       <h1 >QUICK LINKS</h1>
 
         <aside className="latest21-events">
  
@@ -237,56 +200,56 @@ const Home = () => {
     <div className="event21-card">
       <ul className="animated21-list">
         <li>
-          <a href="#">Knowledge and awareness - 23 May 2018 <FaCalendarAlt /></a>
+        <Link to="/Education">COMPETITIVE EXAMS TRAINING BY SRPM Society</Link>
         </li>
       </ul>
     </div>
     <div className="event21-card">
       <ul className="animated21-list">
         <li>
-          <a href="#">The collective work of the village - 24 May 2018 <FaCalendarAlt /></a>
+        <Link to="/education">COMPUTER OPERATING TRAINING BY WINCARE TECHNOSFT GROUP under CSR scheme</Link>
         </li>
       </ul>
     </div>
     <div className="event21-card">
       <ul className="animated21-list">
         <li>
-          <a href="#">Unique initiative in Dimapur village - 31 March 2018 <FaCalendarAlt /></a>
+        <Link to="/AwarenessCamp">SHG GROUP FORMATION BY OSHNIC GROUP</Link>
         </li>
       </ul>
     </div>
     <div className="event21-card">
       <ul className="animated21-list">
         <li>
-          <a href="#">Success story of community center - 07 July 2018 <FaCalendarAlt /></a>
+        <Link to="/AwarenessCamp">SHG GROUP FORMATION BY KVIC</Link>
         </li>
       </ul>
     </div>
     <div className="event21-card">
       <ul className="animated21-list">
         <li>
-          <a href="#">Success story of community center - 07 July 2018 <FaCalendarAlt /></a>
+        <Link to="/Women">FOOD PROCESSING TRAINING BY CEDMAP</Link>
         </li>
       </ul>
     </div>
     <div className="event21-card">
       <ul className="animated21-list">
         <li>
-          <a href="#">Success story of community center - 07 July 2018 <FaCalendarAlt /></a>
+        <Link to="/Women">AGARBATTI MAKING TRAINING BY KVIC</Link>
         </li>
       </ul>
     </div>
     <div className="event21-card">
       <ul className="animated21-list">
         <li>
-          <a href="#">Success story of community center - 07 July 2018 <FaCalendarAlt /></a>
+        <Link to="/livelihood">HONEYBEE MISSION BY KVIC</Link>
         </li>
       </ul>
     </div>
     <div className="event21-card">
       <ul className="animated21-list">
         <li>
-          <a href="#">Success story of community center - 07 July 2018 <FaCalendarAlt /></a>
+        <Link to="/Women">NAI ROSHNI BY MOMA</Link>
         </li>
       </ul>
     </div>

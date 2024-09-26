@@ -98,7 +98,7 @@ const Awareness = () => {
               <Card.Text className="card-text">
                 Our health awareness programs focus on preventive healthcare and health education to build healthier communities.
               </Card.Text>
-              <button className="card-btn">Explore More</button>
+            
             </Card.Body>
           </Card>
 
@@ -109,7 +109,7 @@ const Awareness = () => {
               <Card.Text className="card-text">
                 We conduct hygiene awareness programs in rural areas to improve practices and promote healthy habits.
               </Card.Text>
-              <button className="card-btn">Explore More</button>
+           
             </Card.Body>
           </Card>
 
@@ -120,7 +120,7 @@ const Awareness = () => {
               <Card.Text className="card-text">
                 We organize campaigns to raise awareness about environmental sustainability and conservation.
               </Card.Text>
-              <button className="card-btn">Explore More</button>
+           
             </Card.Body>
           </Card>
 
@@ -131,7 +131,7 @@ const Awareness = () => {
               <Card.Text className="card-text">
                 Our water conservation programs help communities adopt better water management and preservation practices.
               </Card.Text>
-              <button className="card-btn">Explore More</button>
+            
             </Card.Body>
           </Card>
 
@@ -142,7 +142,7 @@ const Awareness = () => {
               <Card.Text className="card-text">
                 We focus on waste reduction, recycling, and responsible disposal to protect our environment and communities.
               </Card.Text>
-              <button className="card-btn">Explore More</button>
+            
             </Card.Body>
           </Card>
         </div>

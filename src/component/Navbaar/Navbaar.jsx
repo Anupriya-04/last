@@ -93,6 +93,22 @@ const Navbarr = () => {
               STUDENT ATTENDANCE
             </Nav.Link>
           </Nav>
+          <NavDropdown title="SKILL DEVELOPMENT" id="basic-nav-dropdown1" style={navdropstyle}>
+              <NavDropdown.Item as={NavLink} to="/empenalment" style={dropdownItemStyle} onClick={handleLinkClick}>
+               Empenalment
+              </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/oldage" style={dropdownItemStyle} onClick={handleLinkClick}>
+              Old Age Homes
+              </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/centers" style={dropdownItemStyle} onClick={handleLinkClick}>
+              Our Center
+              </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/assessment" style={dropdownItemStyle} onClick={handleLinkClick}>
+              Assessment Work
+              </NavDropdown.Item>
+              </NavDropdown>
+
+
         </Navbar.Collapse>
       </Container>
     </Navbar>

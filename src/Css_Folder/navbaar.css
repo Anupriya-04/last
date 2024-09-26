@@ -23,18 +23,18 @@ body {
 
 /* Other existing styles */
 .navbar-header {
-  height: 50px;
+  height: 40px;
   width: auto;
 }
 
 .navbar-brand img {
-  border-radius: 50%;
+  border-radius: 40%;
 }
 
 .navbar-nav > li > a {
   color: #CCCCFF !important;
   font-family: 'Quicksand', sans-serif;
-  font-size: 18px;
+  font-size: 1px;
   font-weight: 250;
   padding: 15px;
 }

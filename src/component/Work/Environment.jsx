@@ -89,7 +89,7 @@ const Environment = () => {
                 <Card.Text className="card-text12">
                   Join our tree planting drives to combat deforestation and enhance local green spaces.
                 </Card.Text>
-                <button className="card-btn12">Explore More</button>
+             
               </Card.Body>
             </Card>
 
@@ -100,7 +100,7 @@ const Environment = () => {
                 <Card.Text className="card-text12">
                   Participate in our workshops to learn about effective recycling techniques and waste management.
                 </Card.Text>
-                <button className="card-btn12">Explore More</button>
+               
               </Card.Body>
             </Card>
 
@@ -111,7 +111,7 @@ const Environment = () => {
                 <Card.Text className="card-text12">
                   Discover our projects aimed at improving water conservation and access to clean water.
                 </Card.Text>
-                <button className="card-btn12">Explore More</button>
+                
               </Card.Body>
             </Card>
 
@@ -122,7 +122,7 @@ const Environment = () => {
                 <Card.Text className="card-text12">
                   Learn about our efforts to promote sustainable farming practices and environmental stewardship.
                 </Card.Text>
-                <button className="card-btn12">Explore More</button>
+               
               </Card.Body>
             </Card>
 

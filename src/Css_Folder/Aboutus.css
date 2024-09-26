@@ -13,7 +13,7 @@
   /* General Styling */
   .about-img {
     height: auto; /* Maintain aspect ratio */
-    max-height: 450px; /* Default max height, similar to Home.css */
+    max-height: 550px; /* Default max height, similar to Home.css */
     width: 100%; /* Ensure the image takes full width */
     object-fit: cover; /* Cover the container */
     margin: 0 auto; /* Center the image */
